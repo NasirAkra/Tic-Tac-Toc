@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:layout_width="245dp"
+        android:layout_height="337dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/planning" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+
+        tools:ignore="UselessParent">
+        <Button android:id="@+id/bnt1"
+            android:onClick="Check"/>
+        <Button android:layout_marginStart="11dp"
+            android:id="@+id/bnt2"
+            android:onClick="Check"/>
+        <Button android:layout_marginStart="11dp"
+            android:id="@+id/bnt3"
+            android:onClick="Check"/>
+        <Button android:id="@+id/bnt4"
+            android:onClick="Check"/>
+        <Button android:layout_marginStart="11dp"
+            android:id="@+id/bnt5"
+            android:onClick="Check"/>
+        <Button android:layout_marginStart="11dp"
+            android:id="@+id/bnt6"
+            android:onClick="Check"/>
+        <Button android:id="@+id/bnt7"
+            android:onClick="Check"/>
+        <Button android:layout_marginStart="11dp"
+            android:id="@+id/bnt8"
+            android:onClick="Check"/>
+        <Button android:layout_marginStart="11dp"
+            android:id="@+id/bnt9"
+            android:onClick="Check"/>
+    </GridLayout>
+
+
+
+</LinearLayout>
